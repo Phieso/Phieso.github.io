@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mon délicieux burger</title>
+	<style>
+		div {
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+		#assiette {
+			height: 25px;
+			background-color: #656565;
+			width: 500px;
+			margin: 0px auto 50px auto;
+			border-radius: 0 0 30px 30px;
+
+		}
+
+		#assiette p {
+			margin: 0px;
+		}
+
+		.pain-haut {
+			border-radius: 60px 60px 10px 10px;
+			width: 400px;
+			height: 65px;
+			border-bottom: 10px solid #ce9e51; 			
+			
+		}
+		
+		.fromage {
+			border-bottom: 2px solid #deb743;
+			width: 430px;
+			height: 18px;
+			background-color: #f2c11f;
+		
+		}
+
+		.tomate {
+			border-bottom: 30px solid #dd3711;
+			width: 350px;
+		} 
+
+		.oignon { 
+			border-bottom: 25px dotted #b361cc;
+			background-color: #a03abf;
+			width: 250px;
+		}
+
+		.boulette {
+			height: 55px;
+			width: 70px;
+			background-color: #75390d;
+			border-radius: 70px;
+			display: inline-block;
+		}
+
+		.centrer-boulette {
+			text-align: center;
+		}
+		
+		.salade {
+			width: 350px; 
+			height: 35px;
+			background-color: #3bc67c;
+			border-bottom: 15px solid #2e9861;
+			border-radius: 0px 0px 60px 60px;
+
+		}
+
+		.steak {
+			height: 35px;
+			width: 450px;
+			border: 2px solid #9e320a;
+			background-color: #ac370b;
+			border-radius: 15px;
+		}
+
+		.pain-bas {
+			border-radius: 10px 10px 30px 30px;
+			width: 400px;
+			height: 40px;
+			border-top: 10px solid #ce9e51; 	
+
+		}
+
+		.pain-haut, .pain-bas {
+			background-color: #e5af5b;
+		}
+	</style>
+</head>
+<body>
+	
+		<div class="pain-haut">
+			<p>Pour me recruter, </br> remplissez ce formulaire !</p>
+		</div>
+		<div class="fromage">
+			<form method="POST" action="https://formspree.io/hs.huynhsophie@gmail.com">
+            <label>
+                Mail : <input type="email" name="courriel" />
+            </label>
+        	
+		</div>
+		<div class="tomate"></div>
+		<div class="fromage">
+			
+            <label>
+                Nom : <input type="family-name" name="nom" />
+            </label>
+        	
+		</div>
+		<div class="fromage">
+			
+            <label>
+                Prénom : <input type="given-name" name="nom" />
+            </label>
+       
+		</div>
+		<div class="fromage"></div>
+
+		<div class="oignon"></div>
+
+		<div class="centrer-boulette">
+		<div class="boulette">
+			
+			<input type="radio" name="sex" value=""> 
+			<label></br> Femme</label>
+			
+		</div>
+		<div class="boulette">
+			
+			<input type="radio" name="sex" value=""> 
+			<label>Homme</label>
+			
+		</div>
+		<div class="boulette">
+			
+			<input type="radio" name="sex" value=""> <label>Indéfini</label>
+			
+		</div>
+		</div>
+
+		<div class="salade">
+		</div>
+		<div class="steak">
+			
+<textarea name="message" rows=1 cols=40>Votre message.</textarea>
+
+
+		</div>
+		<div class="steak"></div>
+		<div class="pain-bas">
+			
+				<input type="submit" value="Envoyer" />
+			</form>
+		</div>
+		<div id="assiette">
+			<p>Merci et à bientôt !</p>
+		</div>
+</body>
+</html>
